@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/1.png" />
+    <link rel="stylesheet" href="css/default.css" />
+    <title>Portfolio</title>
+    <script>
+      function colorChange1() {
+        document.getElementById("nav-home").style.color = "orangered";
+        document.getElementById("nav-about").style.color = "white";
+        document.getElementById("nav-skills").style.color = "white";
+        document.getElementById("nav-work").style.color = "white";
+        document.getElementById("nav-contact").style.color = "white";
+      }
+
+      function colorChange2() {
+        document.getElementById("nav-home").style.color = "white";
+        document.getElementById("nav-about").style.color = "orangered";
+        document.getElementById("nav-skills").style.color = "white";
+        document.getElementById("nav-work").style.color = "white";
+        document.getElementById("nav-contact").style.color = "white";
+      }
+
+      function colorChange3() {
+        document.getElementById("nav-home").style.color = "white";
+        document.getElementById("nav-about").style.color = "white";
+        document.getElementById("nav-skills").style.color = "orangered";
+        document.getElementById("nav-work").style.color = "white";
+        document.getElementById("nav-contact").style.color = "white";
+      }
+
+      function colorChange4() {
+        document.getElementById("nav-home").style.color = "white";
+        document.getElementById("nav-about").style.color = "white";
+        document.getElementById("nav-skills").style.color = "white";
+        document.getElementById("nav-work").style.color = "orangered";
+        document.getElementById("nav-contact").style.color = "white";
+      }
+
+      function colorChange5() {
+        document.getElementById("nav-home").style.color = "white";
+        document.getElementById("nav-about").style.color = "white";
+        document.getElementById("nav-skills").style.color = "white";
+        document.getElementById("nav-work").style.color = "white";
+        document.getElementById("nav-contact").style.color = "orangered";
+      }
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+  </head>
+  <body>
+    <article id="article1">
+      <center>
+        <header>
+          <div class="main-nav">
+            <div class="navlinks">
+              <nav class="clear">
+                <ul>
+                  <li onmouseover="colorChange1()">
+                    <a href="#article1" id="nav-home">Home</a>
+                  </li>
+                  <li onmouseover="colorChange2()">
+                    <a href="#article2" id="nav-about">About</a>
+                  </li>
+                  <li onmouseover="colorChange3()">
+                    <a href="#article3" id="nav-skills">Skills</a>
+                  </li>
+                  <li onmouseover="colorChange4()">
+                    <a href="#article4" id="nav-works">Works</a>
+                  </li>
+                  <li onmouseover="colorChange5()">
+                    <a href="#article5" id="nav-contact">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <div id="mySidenav" class="sidenav">
+                <a
+                  href="javascript:void(0)"
+                  class="closebtn"
+                  onclick="closeNav()"
+                  >&times;</a
+                >
+                <a href="#article1">HOME</a>
+                <a href="#article2">ABOUT</a>
+                <a href="#article3">SKILLS</a>
+                <a href="#article4">WORKS</a>
+                <a href="#article5">CONTACT</a>
+              </div>
+              <span id="menu" onclick="openNav()">&#9776; </span>
+            </div>
+          </div>
+        </header>
+        <div class="header-background">
+          <img src="assets/1.jpg" width="100%" alt="header-background" />
+        </div>
+      </center>
+    </article>
+    <br />
+
+    <article id="article2">
+      <div class="about-me">
+        <h1 id="heading-about">About Me</h1>
+      </div>
+      <br /><br />
+      <div class="profile">
+        <img src="assets/profile.jpeg" class="picture" alt="profile-photo" />
+      </div>
+      <div class="class-aboutme">
+        <p id="p-aboutme">
+          Hi there! I am Livjyot! Have variety of experiences and skills
+          especially in Front end development and UX/UI design models. Able to
+          learn fast, adapt and get things done. Can go along with people, is
+          creative, energetic, confident, reliable, passionate and dedicated to
+          work.
+        </p>
+      </div>
+      <br /><br />
+    </article>
+
+    <article id="article3">
+      <section class="skills">
+        <h1 id="heading-skills">Skillset</h1>
+        <div class="box1">
+          <img src="assets/photoshop.png" id="img1" alt="photoshop-icon" />
+          <p id="p1">Photoshop</p>
+        </div>
+        <div class="box2">
+          <img src="assets/illustrator.png" id="img2" alt="illustrator-icon" />
+          <p id="p2">Illustrator</p>
+        </div>
+        <div class="box3">
+          <img src="assets/xd.png" id="img3" alt="xd-icon" />
+          <p id="p3">XD</p>
+        </div>
+        <div class="box4">
+          <img src="assets/protopie.png" id="img4" alt="protopie-icon" />
+          <p id="p4">ProtoPie</p>
+        </div>
+        <div class="box5">
+          <img src="assets/lightroom.png" id="img5" alt="lightroom-icon" />
+          <p id="p5">Lightroom</p>
+        </div>
+        <div class="box6">
+          <img src="assets/Figma.png" id="img6" alt="figma-icon" />
+          <p id="p6">Figma</p>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      </section>
+    </article>
+
+    <article id="article4">
+      <div class="works">
+        <h1 id="heading-works">Projects</h1>
+      </div>
+      <div class="projects">
+        <div id="project1">
+          <p id="name1">01. ATC Monitor Screen</p>
+          <img
+            src="assets/A1.png"
+            id="project-pic1"
+            alt="air-traffic-controller"
+          />
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+
+        <div id="project2">
+          <p id="name2">02. WhatsApp Re-Design</p>
+          <div class="whatsapp-image-row-1" style="width: 100%">
+            <img src="assets/WA1.png" id="WA1" alt="whatsapp-chats-screen" />
+            <img
+              src="assets/WA2.png"
+              id="WA2"
+              alt="whatsapp-chats-deleting-screen"
+            />
+          </div>
+          <div class="whatsapp-image-row-2" style="width: 100%">
+            <img
+              src="assets/WA4.png"
+              id="WA3"
+              alt="whatsapp-user-chat-screen"
+            />
+            <img src="assets/WA3.png" id="WA4" alt="whatsapp-trash-screen" />
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br />
+
+        <div id="project3">
+          <p id="name3">03. Data Visulization</p>
+          <img src="assets/V1.png" id="V1" alt="data-dashboard" />
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+      </div>
+    </article>
+    <br /><br /><br /><br />
+
+    <article id="article5">
+      <center>
+        <div class="footer-background">
+          <img
+            src="assets/testimonials-bg.jpg"
+            width="100%"
+            id="footer-image"
+            alt="footer-backgroundd"
+          />
+          <img
+            src="assets/footer.jpg"
+            width="100%"
+            id="footer"
+            alt="footer-background"
+          />
+          <h2 id="footer-heading">Get in touch</h2>
+          <div class="container">
+            <form id="form-contact">
+              <label for="name">Name*</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              /><br /><br />
+              <label for="email">Email*</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+              /><br /><br />
+              <label for="text">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Your subject.."
+              /><br /><br />
+              <label for="message" style="margin-top: -5%" id="label-message"
+                >Message*</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+
+              <div class="row">
+                <br />
+                <a href="mailto:livjyotsingh2000@gmail.com" id="submit"
+                  >Submit</a
+                >
+              </div>
+
+              <h2 id="contact-info">Contact Information</h2>
+              <p id="para-contact">Livjyot Singh</p>
+              <p id="para-email">livjyotsingh2000@gmail.com</p>
+            </form>
+            <form id="form-contact2">
+              <label id="namee1" for="name">Name*</label>
+              <input
+                type="text"
+                class="input1"
+                name="name"
+                placeholder="Your name.."
+              /><br />
+              <label id="email1" for="email">Email*</label>
+              <input
+                type="email"
+                class="input1"
+                name="email"
+                placeholder="Your email.."
+              /><br />
+              <label
+                id="message1"
+                for="message"
+                style="margin-top: -5%"
+                id="label-message"
+                >Message*</label
+              >
+              <input
+                type="text"
+                id="input1"
+                name="message"
+                placeholder="Your message.."
+              />
+
+              <div class="row1">
+                <a href="mailto:livjyotsingh2000@gmail.com" id="submit"
+                  >Submit</a
+                >
+                <a href="mailto:livjyotsingh2000@gmail.com" id="submit1"
+                  >Submit</a
+                >
+              </div>
+
+              <h2 id="contact-info1">Contact Information</h2>
+              <p id="para-contact1">Livjyot Singh</p>
+              <p id="para-email1">livjyotsingh2000@gmail.com</p>
+            </form>
+          </div>
+        </div>
+      </center>
+    </article>
+  </body>
+</html>
