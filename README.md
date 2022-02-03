@@ -2,11 +2,11 @@
  
 This is my 2022 portfolio as a UX/UI Designer. It includes portion of my UX and UI Design knowledge by showcasing different projects. Listed below are some of the skills included to build this site:
 
-*- HTMl*
+- HTML
 
-*- CSS*
+- CSS
 
-*- JavaScript*
+- JavaScript
 
 Included in this site are: UI designs of WhatsApp 2.0, ATC Monitor Screen, Data Visualization
 
