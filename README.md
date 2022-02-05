@@ -8,7 +8,7 @@ This is my 2022 portfolio as a UX/UI Designer. It includes portion of my UX and 
 
 - JavaScript
 
-Included in this site are: UI designs of WhatsApp 2.0, ATC Monitor Screen, Data Visualization
+Included in this site are: UI designs of WhatsApp 2.0, ATC Monitor Screen and a Data Visualization
 
 ## Installation
 
