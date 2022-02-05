@@ -27,4 +27,4 @@ I have chosen this license because it is simple, permissive and optimized for de
 ## Contact
 Email: livjyots11@gmail.com
 
-Website URL: https://livjyot.github.io/Portfolio/
+Website URL: https://livjyot.github.io/Github-Startup/
